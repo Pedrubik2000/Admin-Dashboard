@@ -44,7 +44,7 @@ body, html {
     height: 150vh;
 }
 #sidebar{
-    background-color: #0094d5;
+    background-color: #65a30d;
     grid-row: 1/3;
     display: grid;
     color: white;
@@ -123,7 +123,7 @@ body, html {
 .header-group1 input{
     justify-self: stretch;
     margin-right: 100px;
-    background-color: #96d2ec;
+    background-color: #d9f99d;
     border: none;
     height: 30px;
     border-radius: 20px;
@@ -134,12 +134,12 @@ body, html {
 .header-group1 input:focus{
     justify-self: stretch;
     margin-right: 100px;
-    background-color: #73b8d6;
+    background-color: #bef264;
     border: none;
     height: 30px;
     border-radius: 20px;
     outline : none;
-    box-shadow: 0px 5px 5px 0px #00000029;
+    box-shadow: inset 0px 0px 5px 0px #00000029;
 }
 
 
@@ -183,7 +183,7 @@ body, html {
     height: 40px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #0094d5;
+    background-color: #65a30d;
     border: none;
     border-radius: 40px;
     color: white;
@@ -197,7 +197,7 @@ body, html {
 }
 
 #main-content{
-    background-color: #96d2ec;
+    background-color: #d9f99d;
     padding: 0 25px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -217,7 +217,7 @@ body, html {
 .line{
     box-sizing: border-box;
     position: absolute;
-    background-color: greenyellow;
+    background-color: #a3e635;
     width: 15px;
     height: 100%;
     border-radius: 15px 0px 0 15px;
@@ -263,7 +263,7 @@ div.text p:nth-child(2){
 
 .anouncements-element hr{
     height: 2px;
-    background-color: #96d2ec;
+    background-color: #d9f99d;
     border: none;
 }
 
@@ -279,6 +279,7 @@ div.text p:nth-child(2){
 }
 .profile p{
     line-height: 0;
+    padding: 2px;
 }
 
 .anouncements-element:nth-last-child(){
